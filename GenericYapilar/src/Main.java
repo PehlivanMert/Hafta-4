@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
 
@@ -10,22 +8,24 @@ public class Main {
 
 
         System.out.println("------------------------------------");
-        System.out.println("------------------------------------");
+        System.out.println("------------------------------------");*/
 
 
-        Integer c = 10;
+   /*     Integer c = 10;
         String d = "Mert";
         double e = 2.14;
 
-        Test <Integer,String,Double> m = new Test <> (c,d,e);
+        Test<Integer, String, Double> m = new Test<>(c, d, e);
 
         m.showInfo();
+    }
+}
 
-
+/*
         System.out.println("   ----------------------");
         System.out.println("   ----------------------");
 
-
+/*
         String [] kelime = {"Mert" , "Pehlivan" , "Rabia" , "1234"};
         Integer [] rakam = {1,2,3,4};
 
@@ -40,13 +40,15 @@ public class Main {
         System.out.println();
         Print.printArray(rakam);*/
 
-/*
-        Student<String> student = new Student<>();
-        student.insert("abc");*/
+
+        Student<Integer> student = new Student<>();
+        student.insert(123);}}
 
 
-        // Bu fonksiyon çağrısını burada tut
-        Scanner s = new Scanner(System.in);
+
+
+// Bu fonksiyon çağrısını burada tut
+       /* Scanner s = new Scanner(System.in);
 
         System.out.print(LetterCapitalize(s.nextLine()));
 
@@ -57,4 +59,4 @@ public class Main {
     public static String LetterCapitalize(String str) {
         return str.substring(0, 1).toUpperCase() + str.substring(1);
     }
-}
+}*/
